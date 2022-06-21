@@ -14,8 +14,11 @@ let button = document.querySelector('button')
 
 function setName() {
     let user = prompt('enter your name')
+    if(!user){setName()}
+    else{
     localStorage.setItem('name','user')
     heading.textContent = 'welcome,'+user
+    }
 }
 
 if (!localStorage.getItem('name')) {
