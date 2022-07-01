@@ -1,0 +1,82 @@
+html{
+    font-size: 10px; /* px means "pixels": the base font size is now 10 pixels high  */
+    font-family: "Open Sans", sans-serif; /* this should be the rest of the output you got from Google fonts */
+    background-image: url("images/pattern.png");
+}
+
+header{
+  background-color: grey;
+  color: white;
+  margin: 0px;
+  border: blueviolet solid 5px ;
+  border-radius: 20px;
+}
+h1{
+  padding-left: 49%;
+}
+header img{
+  padding-left: 50%;
+  margin-top: 10px;
+}
+
+ nav ul{
+  list-style-type: none;
+  margin-top:10px;
+  background-color: grey;
+  width: 300px;
+  border: 2px solid purple;
+  margin-left: 20px;
+  border-radius: 10px;
+
+}
+
+ nav li{
+  display: inline-flex;
+  background-color: rgba(44, 43, 43, 0.445);
+  padding: 10px;
+  font-size: large;
+}
+
+nav a{
+  text-decoration: none;
+  color: white;
+}
+a:hover{
+  color: aqua;
+}
+
+/* main{
+  width: 600px;
+  border: black solid 2px;
+  background-color: rgb(212, 206, 197);
+  margin-left: 65em;
+} */
+main{
+  margin-left: 140px;
+
+}
+.box{
+ display: inline-block;
+ width: 400px;
+ border: 1px solid grey;
+ background-image: url("images/swirl_pattern.webp");
+}
+
+
+.box li{
+  display: inline-flex;
+  font-size: large;
+  border-bottom: red solid 2px ;
+  padding: 10px;
+  margin: 10px;
+  width: 200px;
+}
+.box img{
+  width: 300px;
+  border: 2px solid black;
+}
+.box button{
+  margin-left:20px;
+  padding: 10px;
+
+}
