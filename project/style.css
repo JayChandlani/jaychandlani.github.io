@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap&family=Bebas+Neue&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Asap', sans-serif;
+    /* font-family: 'Bebas Neue', cursive; */
+}
+
+
+body {
+    background-color: rgb(221, 221, 221);
+}
+
+header {
+    background-color: #2d0031;
+    display: flex;
+    align-items: center;
+    height: 3em;
+    width: 100%;
+    position: sticky;
+    top: 0;
+}
+.logoo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10em;
+    color: white;
+}
+.search {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    min-width: 34vw;
+    max-height: 25px;
+    align-items: center;
+    padding: 2px;
+    margin: 10em;
+    overflow: hidden;
+    
+}
+button {
+    min-width: 2vw;
+    min-height: 20px;
+    border: none;
+    background-color: white;
+}
+
+.bar input {
+    padding: 0;
+    margin: 0;
+ min-width: 32vw;
+ min-height: 35px;
+}
+
+
+
+.login {
+    background-color: white;
+    color: black;
+    margin: 3vh;
+    padding: .5vh 1vh;
+}
+
+.login a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #2d0031;
+}
+
+.container {
+    margin: 0 1% 0 1%;
+}
+
+.banner {
+    margin: 0 10vw 0 10vw;
+}
+
+.cover{
+    width: 75vw;
+    height: 15vw;
+    min-height: 30px;
+}
+
+.first1 {
+    display: flex;
+}
+
+.box1 {
+    background-color: white;
+    margin-top: 1em;
+}
+.headd{
+    padding: 1em;
+    border-bottom: 1px solid rgb(221, 221, 221) ;
+}
+.first1{
+padding: 1em;
+overflow-x: scroll;
+}
+.cat1{
+ margin-left:2em ;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ line-height: 1.5em;
+ text-transform: capitalize;
+}
+.tag1{
+    text-align: center;
+}
+.offer{
+    font-family: 'Bebas Neue', cursive;
+}
+li{
+    margin:0 2vw 0 2vw;
+    font-size: 20px;
+
+}
+.add1 img{
+    width: 10vw;
+    height: 10vw;
+    min-width: 100px;
+    min-height: 100px;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2vw;
+    background-color: #2d0031;
+    min-height: 100px;
+    
+    
+}
+ul{
+    display: flex;
+    list-style: none;
+    color: white;
+    flex-wrap:wrap;
+}
+
+
+
+@media screen and (max-width:60em) {
+   header{
+    justify-content: space-around;
+   }
+   
+    .logoo{
+    margin: 1vh;
+font-size: 3vw;
+   }
+   span{
+    font-size: 2vw;
+   }
+   .search{
+    margin: 0;
+   }
+   .login{
+    margin: 3vh;
+    padding: .5vh 1vh;
+   }
+.cat1,.headd{
+    line-height: 1.4em;
+    font-size: .8em;
+}
+li{
+    font-size: 13px;
+    margin:0 2vw 2vw 2vw;
+}
+}
+
