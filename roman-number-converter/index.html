@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Asap', sans-serif;
+            font-family: 'Bebas Neue', cursive;
+        }
+
+        body {
+            background-color: beige;
+        }
+
+        .divv {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .container {
+            width: 30%;
+            background-color: bisque;
+            padding: 1% 1% 20% 1%;
+            border: 10px solid blanchedalmond;
+            border-radius: 10px;
+            min-width: 350px;
+            box-sizing: border-box;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .form {
+            display: flex;
+            margin: 5%;
+            justify-content: center;
+            align-items: center;
+        }
+
+        input {
+            width: 12em;
+            height: 3em;
+            margin-right: 10px;
+            padding: .5em;
+            border: none;
+            background-color: rgb(223, 213, 198);
+            border-radius: 10px;
+
+        }
+
+        #button {
+
+            width: 5em;
+            height: 3em;
+            background-color: beige;
+            border: none;
+            border-radius: 10px;
+            font-size: 90%;
+        }
+        #clr{
+
+            width: 5em;
+            height: 3em;
+            background-color: beige;
+            border: none;
+            border-radius: 10px;
+            font-size: 90%;
+        }
+
+        #button:hover {
+            color: rgb(255, 255, 255);
+            background-color: bisque;
+        }
+        #clr:hover {
+            color: rgb(255, 255, 255);
+            background-color: bisque;
+        }
+
+        .anscont {
+            display: flex;
+            justify-content: center;
+            margin-top: 15%;
+
+        }
+
+        .ans {
+            background-color: rgb(252, 218, 176);
+            width: 20em;
+            height: 20em;
+            border-radius: 10px;
+            border: 5px solid rgb(221, 197, 167);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        ul {
+            list-style-type: none;
+            /* margin-right: 25px; */
+            font-size: 4em;
+            overflow:auto;
+            overflow-wrap: break-word;
+            text-decoration: underline;
+        }
+        li{
+            font-family: 'Bebas Neue'
+        }
+
+    
+    </style>
+    <title>Roman Converter</title>
+</head>
+
+<body>
+    <div class="divv">
+        <div class="container">
+            <div>
+                <h1>Roman Number Converter</h1>
+            </div>
+            <div class="form">
+                <input type="text" placeholder="Enter No.">
+                <input type="button" value="Convert" id="button" />
+                <input type="button" value="clear" id="clr" />
+            </div>
+            <div class="anscont">
+                <div class="ans">
+                    <ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"> </script>
+</body>
+
+</html>
